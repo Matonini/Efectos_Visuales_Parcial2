@@ -36,5 +36,5 @@ Material:
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _MainColor: {r: 0.2028302, g: 0.5567696, b: 1, a: 0}
     - _VoronoiColor: {r: 0.9481132, g: 0.9739866, b: 1, a: 0}
-    - _WaveSize: {r: 0, g: 1.8, b: 0, a: 0}
+    - _WaveSize: {r: 0, g: 4, b: 0, a: 0}
   m_BuildTextureStacks: []
