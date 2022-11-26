@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ScreenFreeze_MAT
-  m_Shader: {fileID: 4800000, guid: 4e5fef96e31a6a948b20b436b577af46, type: 3}
+  m_Name: TreeVertexColor_MAT
+  m_Shader: {fileID: 4800000, guid: 87aa40d9303f90d4c8ca590a7708e512, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,12 +19,16 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
+    - _SandAlbedo:
+        m_Texture: {fileID: 2800000, guid: 516aabb058242dd4abdccc4924d0b520, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _scene__Pines_BaseColor:
+        m_Texture: {fileID: 2800000, guid: dcc0190ece7e5104b8dca2aa4e8346da, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _TextureSample0:
-        m_Texture: {fileID: 2800000, guid: 23c427db58db4a943bfa414770b9e159, type: 3}
+    - _scene__Pines_BaseColor1:
+        m_Texture: {fileID: 2800000, guid: dcc0190ece7e5104b8dca2aa4e8346da, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -33,21 +37,20 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _AlphaCutoff: 0.5
-    - _Distortion: 0.02
-    - _Emission: 0
-    - _Float0: 2.44
-    - _FreezeIntensity: 80
-    - _Intensity: 0
-    - _Multiplier: 0.07
-    - _Sides: 20
     - _TessEdgeLength: 16
     - _TessMax: 25
     - _TessMaxDisp: 25
     - _TessMin: 10
     - _TessPhongStrength: 0.5
     - _TessValue: 16
+    - _TransAmbient: 0.1
+    - _TransDirect: 0.9
+    - _TransNormal: 0.5
+    - _TransScattering: 2
+    - _TransShadow: 0.5
+    - _TransStrength: 1
+    - _TransmissionShadow: 0.5
     m_Colors:
-    - _DistortVector: {r: 3, g: 3, b: 3, a: 3}
+    - _Color0: {r: 1, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Vector0: {r: 3, g: 3, b: 3, a: 3}
   m_BuildTextureStacks: []

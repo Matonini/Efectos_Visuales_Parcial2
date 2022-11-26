@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 87aa40d9303f90d4c8ca590a7708e512
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _SandAlbedo: {fileID: 2800000, guid: 516aabb058242dd4abdccc4924d0b520, type: 3}
+  - _scene__Pines_BaseColor: {fileID: 2800000, guid: dcc0190ece7e5104b8dca2aa4e8346da, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
