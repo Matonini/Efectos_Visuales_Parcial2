@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: b92eaed84edbdd2498d8bfb71e86acf4
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _scene__Camp_BaseColor: {fileID: 2800000, guid: a4f24a509462a84488c0e54da8871ed9, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
