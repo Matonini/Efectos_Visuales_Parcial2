@@ -36,7 +36,7 @@ Material:
     - _Distortion: 0.02
     - _Emission: 0
     - _Float0: 2.44
-    - _FreezeIntensity: 80
+    - _FreezeIntensity: 80.00479
     - _Intensity: 0
     - _Multiplier: 0.07
     - _Sides: 20
